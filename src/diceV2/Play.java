@@ -7,14 +7,14 @@ public class Play {
 
     public String resultStr;
     private static int qntDice;
-    private static Player[] players; //Массив обьектов игроки
+    private static Person[] players; //Массив обьектов игроки
 
     /**
      * Запуск игры
      * @param players массив с игроками
      * @param qntDice количество кубиков в игре
      */
-    public Play(Player[] players, int qntDice){
+    public Play(Person[] players, int qntDice){
         Play.players = players;
         Play.qntDice = qntDice;
         int winner = 0;
